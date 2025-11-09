@@ -30,9 +30,23 @@ To write a Python function `def leftRotate(self, z)` to perform the left rotatio
 
 ## Program
 
-```python
+```
+
+from TreeAVL.AVL import AVL
+
+def getDictTree(self):
+ return self.dict_tree
+
+def Construct_AVL(L):
+    tree = AVL(L)
+    print("AVL Tree Before Balancing\n",getDictTree(tree))
+    tree.BalanceTree()
+    print("AVL Tree After Balancing\n", getDictTree(tree))
+L=[11, 8, 18, 5, 13, 17, 4, 7, 2]
 ```
 
 ## OUTPUT
+<img width="1260" height="152" alt="image" src="https://github.com/user-attachments/assets/636e530f-bbee-4e62-87e7-c4e0d1a3d477" />
 
 ## RESULT
+Thus the Python program to construct an AVL tree, balance it, and print the nodes before and after balancing using the appropriate packages and built-in function was successfully executed.
